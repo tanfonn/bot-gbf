@@ -1,0 +1,331 @@
+{
+    "roi": [
+        59,
+        100,
+        418,
+        926
+    ],
+    "tasks": [
+        {
+            "id": "1",
+            "type": "sequence",
+            "image": "templates\\1.png",
+            "interval": 0,
+            "delay": 1.0
+        },
+        {
+            "id": "2",
+            "type": "sequence",
+            "image": "templates\\2.png",
+            "interval": 0,
+            "delay": 1.0
+        },
+        {
+            "id": "3",
+            "type": "sequence",
+            "image": "templates\\3.png",
+            "interval": 0,
+            "delay": 1.0
+        },
+        {
+            "id": "4",
+            "type": "sequence",
+            "image": "templates\\4.png",
+            "interval": 0,
+            "delay": 25.0
+        },
+        {
+            "id": "5",
+            "type": "sequence",
+            "image": "templates\\5.png",
+            "interval": 0,
+            "delay": 1.0
+        },
+        {
+            "id": "6",
+            "type": "sequence",
+            "image": "templates\\6.png",
+            "interval": 0,
+            "delay": 1.0
+        },
+        {
+            "id": "7",
+            "type": "sequence",
+            "image": "templates\\7.png",
+            "interval": 0,
+            "delay": 1.0
+        },
+        {
+            "id": "8",
+            "type": "sequence",
+            "image": "templates\\8.png",
+            "interval": 0,
+            "delay": 1.0
+        }
+    ],
+    "profiles": [
+        "2",
+        "1",
+        "Default",
+        "123"
+    ],
+    "1": {
+        "roi": [
+            280,
+            217,
+            728,
+            476
+        ],
+        "captcha_path": "templates\\1\\captcha.png",
+        "captcha_input_pos": null,
+        "captcha_ocr_roi": null,
+        "captcha_send_pos": null,
+        "tasks": [
+            {
+                "id": "1",
+                "image": "templates\\1\\1.png",
+                "delay": 1.0,
+                "next_run": 0
+            },
+            {
+                "id": "2",
+                "image": "templates\\1\\2.png",
+                "delay": 1.0,
+                "next_run": 0
+            },
+            {
+                "id": "3",
+                "image": "templates\\1\\3.png",
+                "delay": 1.0,
+                "next_run": 0
+            },
+            {
+                "id": "4",
+                "image": "templates\\1\\4.png",
+                "delay": 1.0,
+                "next_run": 0
+            },
+            {
+                "id": "5",
+                "image": "templates\\1\\5.png",
+                "delay": 1.0,
+                "next_run": 0
+            },
+            {
+                "id": "6",
+                "image": "templates\\1\\6.png",
+                "delay": 3.0,
+                "next_run": 0
+            }
+        ]
+    },
+    "Default": {
+        "roi": [
+            66,
+            107,
+            423,
+            925
+        ],
+        "captcha_path": "templates\\Default\\captcha.png",
+        "tasks": [
+            {
+                "id": "1",
+                "type": "sequence",
+                "image": "templates\\Default\\1.png",
+                "interval": 0,
+                "delay": 1.0,
+                "next_run": 0
+            },
+            {
+                "id": "2",
+                "type": "sequence",
+                "image": "templates\\Default\\2.png",
+                "interval": 0,
+                "delay": 1.0,
+                "next_run": 0
+            },
+            {
+                "id": "3",
+                "type": "sequence",
+                "image": "templates\\Default\\3.png",
+                "interval": 0,
+                "delay": 1.0,
+                "next_run": 0
+            },
+            {
+                "id": "4",
+                "type": "sequence",
+                "image": "templates\\Default\\4.png",
+                "interval": 0,
+                "delay": 28.0,
+                "next_run": 0
+            },
+            {
+                "id": "5",
+                "type": "sequence",
+                "image": "templates\\Default\\5.png",
+                "interval": 0,
+                "delay": 1.0,
+                "next_run": 0
+            },
+            {
+                "id": "6",
+                "type": "sequence",
+                "image": "templates\\Default\\6.png",
+                "interval": 0,
+                "delay": 5.0,
+                "next_run": 0
+            },
+            {
+                "id": "7",
+                "type": "sequence",
+                "image": "templates\\Default\\7.png",
+                "interval": 0,
+                "delay": 1.0,
+                "next_run": 0
+            }
+        ]
+    },
+    "11": {
+        "roi": [
+            64,
+            89,
+            429,
+            944
+        ],
+        "tasks": [
+            {
+                "id": "1",
+                "type": "sequence",
+                "image": "templates\\1.png",
+                "interval": 0,
+                "delay": 1.0
+            },
+            {
+                "id": "2",
+                "type": "sequence",
+                "image": "templates\\2.png",
+                "interval": 0,
+                "delay": 1.0
+            },
+            {
+                "id": "3",
+                "type": "sequence",
+                "image": "templates\\3.png",
+                "interval": 0,
+                "delay": 1.0
+            },
+            {
+                "id": "4",
+                "type": "sequence",
+                "image": "templates\\4.png",
+                "interval": 0,
+                "delay": 5.0
+            },
+            {
+                "id": "5",
+                "type": "sequence",
+                "image": "templates\\5.png",
+                "interval": 0,
+                "delay": 1.0
+            }
+        ]
+    },
+    "2": {
+        "roi": [
+            54,
+            99,
+            436,
+            931
+        ],
+        "captcha_path": "templates\\2\\captcha.png",
+        "tasks": [
+            {
+                "id": "1",
+                "type": "sequence",
+                "image": "templates\\2\\1.png",
+                "interval": 0,
+                "delay": 1.0,
+                "next_run": 0
+            },
+            {
+                "id": "2",
+                "type": "sequence",
+                "image": "templates\\2\\2.png",
+                "interval": 0,
+                "delay": 1.0,
+                "next_run": 0
+            },
+            {
+                "id": "3",
+                "type": "sequence",
+                "image": "templates\\2\\3.png",
+                "interval": 0,
+                "delay": 1.0,
+                "next_run": 0
+            },
+            {
+                "id": "4",
+                "type": "sequence",
+                "image": "templates\\2\\4.png",
+                "interval": 0,
+                "delay": 23.0,
+                "next_run": 0
+            },
+            {
+                "id": "5",
+                "type": "sequence",
+                "image": "templates\\2\\5.png",
+                "interval": 0,
+                "delay": 1.0,
+                "next_run": 0
+            },
+            {
+                "id": "6",
+                "type": "sequence",
+                "image": "templates\\2\\6.png",
+                "interval": 0,
+                "delay": 1.0,
+                "next_run": 0
+            },
+            {
+                "id": "7",
+                "type": "sequence",
+                "image": "templates\\2\\7.png",
+                "interval": 0,
+                "delay": 1.0,
+                "next_run": 0
+            },
+            {
+                "id": "8",
+                "type": "sequence",
+                "image": "templates\\2\\8.png",
+                "interval": 0,
+                "delay": 1.0,
+                "next_run": 0
+            },
+            {
+                "id": "9",
+                "type": "sequence",
+                "image": "templates\\2\\9.png",
+                "interval": 0,
+                "delay": 1.0,
+                "next_run": 0
+            }
+        ]
+    },
+    "123": {
+        "roi": [
+            0,
+            0,
+            624,
+            1078
+        ],
+        "captcha_path": "templates\\123\\captcha.png",
+        "captcha_input_pos": null,
+        "captcha_ocr_roi": null,
+        "captcha_send_pos": null,
+        "tasks": []
+    },
+    "last_profile": "1"
+}
